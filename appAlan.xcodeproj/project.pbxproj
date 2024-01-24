@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		667DC4442B618ACD003636E1 /* appAlanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667DC4432B618ACD003636E1 /* appAlanApp.swift */; };
-		667DC4462B618ACD003636E1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667DC4452B618ACD003636E1 /* ContentView.swift */; };
+		667DC4462B618ACD003636E1 /* ListLeagues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667DC4452B618ACD003636E1 /* ListLeagues.swift */; };
 		667DC4482B618ACE003636E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 667DC4472B618ACE003636E1 /* Assets.xcassets */; };
 		667DC44B2B618ACE003636E1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 667DC44A2B618ACE003636E1 /* Preview Assets.xcassets */; };
 		667DC4552B618ACF003636E1 /* appAlanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667DC4542B618ACF003636E1 /* appAlanTests.swift */; };
 		667DC45F2B618ACF003636E1 /* appAlanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667DC45E2B618ACF003636E1 /* appAlanUITests.swift */; };
 		667DC4612B618ACF003636E1 /* appAlanUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667DC4602B618ACF003636E1 /* appAlanUITestsLaunchTests.swift */; };
+		667DC4712B61916A003636E1 /* GetDataApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667DC4702B61916A003636E1 /* GetDataApi.swift */; };
+		667DC4732B619189003636E1 /* League.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667DC4722B619189003636E1 /* League.swift */; };
+		667DC4752B6191B1003636E1 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667DC4742B6191B1003636E1 /* Team.swift */; };
+		667DC4772B619259003636E1 /* ListTeams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667DC4762B619259003636E1 /* ListTeams.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +40,7 @@
 /* Begin PBXFileReference section */
 		667DC4402B618ACD003636E1 /* appAlan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appAlan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		667DC4432B618ACD003636E1 /* appAlanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appAlanApp.swift; sourceTree = "<group>"; };
-		667DC4452B618ACD003636E1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		667DC4452B618ACD003636E1 /* ListLeagues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListLeagues.swift; sourceTree = "<group>"; };
 		667DC4472B618ACE003636E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		667DC44A2B618ACE003636E1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		667DC4502B618ACF003636E1 /* appAlanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = appAlanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +48,10 @@
 		667DC45A2B618ACF003636E1 /* appAlanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = appAlanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		667DC45E2B618ACF003636E1 /* appAlanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appAlanUITests.swift; sourceTree = "<group>"; };
 		667DC4602B618ACF003636E1 /* appAlanUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appAlanUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		667DC4702B61916A003636E1 /* GetDataApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetDataApi.swift; sourceTree = "<group>"; };
+		667DC4722B619189003636E1 /* League.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = League.swift; sourceTree = "<group>"; };
+		667DC4742B6191B1003636E1 /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		667DC4762B619259003636E1 /* ListTeams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTeams.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +102,10 @@
 		667DC4422B618ACD003636E1 /* appAlan */ = {
 			isa = PBXGroup;
 			children = (
+				667DC46F2B619074003636E1 /* Views */,
+				667DC46E2B61904E003636E1 /* Api */,
+				667DC46D2B618F78003636E1 /* Models */,
 				667DC4432B618ACD003636E1 /* appAlanApp.swift */,
-				667DC4452B618ACD003636E1 /* ContentView.swift */,
 				667DC4472B618ACE003636E1 /* Assets.xcassets */,
 				667DC4492B618ACE003636E1 /* Preview Content */,
 			);
@@ -125,6 +135,32 @@
 				667DC4602B618ACF003636E1 /* appAlanUITestsLaunchTests.swift */,
 			);
 			path = appAlanUITests;
+			sourceTree = "<group>";
+		};
+		667DC46D2B618F78003636E1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				667DC4722B619189003636E1 /* League.swift */,
+				667DC4742B6191B1003636E1 /* Team.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		667DC46E2B61904E003636E1 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				667DC4702B61916A003636E1 /* GetDataApi.swift */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		667DC46F2B619074003636E1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				667DC4452B618ACD003636E1 /* ListLeagues.swift */,
+				667DC4762B619259003636E1 /* ListTeams.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +293,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				667DC4462B618ACD003636E1 /* ContentView.swift in Sources */,
+				667DC4462B618ACD003636E1 /* ListLeagues.swift in Sources */,
 				667DC4442B618ACD003636E1 /* appAlanApp.swift in Sources */,
+				667DC4732B619189003636E1 /* League.swift in Sources */,
+				667DC4752B6191B1003636E1 /* Team.swift in Sources */,
+				667DC4772B619259003636E1 /* ListTeams.swift in Sources */,
+				667DC4712B61916A003636E1 /* GetDataApi.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
