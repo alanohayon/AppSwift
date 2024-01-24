@@ -1,8 +1,9 @@
-//
-//  League.swift
-//  appAlan
-//
-//  Created by Alan Ohayon on 24/01/2024.
-//
-
 import Foundation
+
+
+struct League: Codable {
+    let idLeague: String
+    let strLeague: String
+    let strCountry: String?
+    let strBadge: String?
+}
