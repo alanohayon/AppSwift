@@ -18,6 +18,8 @@
 		667DC4732B619189003636E1 /* League.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667DC4722B619189003636E1 /* League.swift */; };
 		667DC4752B6191B1003636E1 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667DC4742B6191B1003636E1 /* Team.swift */; };
 		667DC4772B619259003636E1 /* ListTeams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667DC4762B619259003636E1 /* ListTeams.swift */; };
+		667DC4792B61BAFC003636E1 /* LeagueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667DC4782B61BAFC003636E1 /* LeagueView.swift */; };
+		667DC47B2B61BB18003636E1 /* TeamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667DC47A2B61BB18003636E1 /* TeamView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,8 @@
 		667DC4722B619189003636E1 /* League.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = League.swift; sourceTree = "<group>"; };
 		667DC4742B6191B1003636E1 /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
 		667DC4762B619259003636E1 /* ListTeams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTeams.swift; sourceTree = "<group>"; };
+		667DC4782B61BAFC003636E1 /* LeagueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueView.swift; sourceTree = "<group>"; };
+		667DC47A2B61BB18003636E1 /* TeamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +163,8 @@
 			children = (
 				667DC4452B618ACD003636E1 /* ListLeagues.swift */,
 				667DC4762B619259003636E1 /* ListTeams.swift */,
+				667DC4782B61BAFC003636E1 /* LeagueView.swift */,
+				667DC47A2B61BB18003636E1 /* TeamView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -296,8 +302,10 @@
 				667DC4462B618ACD003636E1 /* ListLeagues.swift in Sources */,
 				667DC4442B618ACD003636E1 /* appAlanApp.swift in Sources */,
 				667DC4732B619189003636E1 /* League.swift in Sources */,
+				667DC47B2B61BB18003636E1 /* TeamView.swift in Sources */,
 				667DC4752B6191B1003636E1 /* Team.swift in Sources */,
 				667DC4772B619259003636E1 /* ListTeams.swift in Sources */,
+				667DC4792B61BAFC003636E1 /* LeagueView.swift in Sources */,
 				667DC4712B61916A003636E1 /* GetDataApi.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

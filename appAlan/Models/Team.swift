@@ -10,4 +10,5 @@ struct Team: Codable {
     let strStadium: String?
     let strTeamBadge: String?
     let strTeamFanart1: String?
+    var id: String { idTeam }
 }

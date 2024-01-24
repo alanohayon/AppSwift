@@ -6,4 +6,6 @@ struct League: Codable {
     let strLeague: String
     let strCountry: String?
     let strBadge: String?
+//    Pour que League soit identifiable
+    var id: String { idLeague }
 }

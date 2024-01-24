@@ -30,8 +30,13 @@ class GetDataApi {
 //            On insert les données que l'on a predefinit dans League
             do {
                 let leaguesData = try JSONDecoder().decode([String: [League]].self, from: data)
-                let leagues = leaguesData["leagues"]
-                completion(leagues)
+                if let all_leagues = leaguesData["countries"] {
+                    print("Les ligues ont été récupéré.") // Affiche la première ligue, si elle existe
+                    completion(all_leagues)
+                } else {
+                    print("Aucune ligue trouvée.")
+                    completion(nil) // Gère le cas où il n'y a pas de ligues
+                }
             }
 //            Si on a un erreur lors de l'insertion
             catch {
