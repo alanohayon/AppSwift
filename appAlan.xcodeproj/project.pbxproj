@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		661B6DAC2B631C4A0040E796 /* img1.png in Resources */ = {isa = PBXBuildFile; fileRef = 661B6DAA2B631C4A0040E796 /* img1.png */; };
+		661B6DAD2B631C4A0040E796 /* img2.png in Resources */ = {isa = PBXBuildFile; fileRef = 661B6DAB2B631C4A0040E796 /* img2.png */; };
 		662324E82B63010D00864B3F /* CustomStyleModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662324E72B63010D00864B3F /* CustomStyleModifier.swift */; };
 		667DC4442B618ACD003636E1 /* appAlanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667DC4432B618ACD003636E1 /* appAlanApp.swift */; };
 		667DC4462B618ACD003636E1 /* ListLeagues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667DC4452B618ACD003636E1 /* ListLeagues.swift */; };
@@ -41,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		661B6DAA2B631C4A0040E796 /* img1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img1.png; path = ../../img1.png; sourceTree = "<group>"; };
+		661B6DAB2B631C4A0040E796 /* img2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img2.png; path = ../../img2.png; sourceTree = "<group>"; };
 		662324E72B63010D00864B3F /* CustomStyleModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomStyleModifier.swift; sourceTree = "<group>"; };
 		667DC4402B618ACD003636E1 /* appAlan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appAlan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		667DC4432B618ACD003636E1 /* appAlanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appAlanApp.swift; sourceTree = "<group>"; };
@@ -85,9 +89,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		661B6DA72B631BDE0040E796 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				661B6DAA2B631C4A0040E796 /* img1.png */,
+				661B6DAB2B631C4A0040E796 /* img2.png */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
 		667DC4372B618ACD003636E1 = {
 			isa = PBXGroup;
 			children = (
+				661B6DA72B631BDE0040E796 /* assets */,
 				667DC4422B618ACD003636E1 /* appAlan */,
 				667DC4532B618ACF003636E1 /* appAlanTests */,
 				667DC45D2B618ACF003636E1 /* appAlanUITests */,
@@ -278,6 +292,8 @@
 			files = (
 				667DC44B2B618ACE003636E1 /* Preview Assets.xcassets in Resources */,
 				667DC4482B618ACE003636E1 /* Assets.xcassets in Resources */,
+				661B6DAD2B631C4A0040E796 /* img2.png in Resources */,
+				661B6DAC2B631C4A0040E796 /* img1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
