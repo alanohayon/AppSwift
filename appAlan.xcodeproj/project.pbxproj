@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		662324E82B63010D00864B3F /* CustomStyleModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662324E72B63010D00864B3F /* CustomStyleModifier.swift */; };
 		667DC4442B618ACD003636E1 /* appAlanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667DC4432B618ACD003636E1 /* appAlanApp.swift */; };
 		667DC4462B618ACD003636E1 /* ListLeagues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667DC4452B618ACD003636E1 /* ListLeagues.swift */; };
 		667DC4482B618ACE003636E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 667DC4472B618ACE003636E1 /* Assets.xcassets */; };
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		662324E72B63010D00864B3F /* CustomStyleModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomStyleModifier.swift; sourceTree = "<group>"; };
 		667DC4402B618ACD003636E1 /* appAlan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appAlan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		667DC4432B618ACD003636E1 /* appAlanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appAlanApp.swift; sourceTree = "<group>"; };
 		667DC4452B618ACD003636E1 /* ListLeagues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListLeagues.swift; sourceTree = "<group>"; };
@@ -165,6 +167,7 @@
 				667DC4762B619259003636E1 /* ListTeams.swift */,
 				667DC4782B61BAFC003636E1 /* LeagueView.swift */,
 				667DC47A2B61BB18003636E1 /* TeamView.swift */,
+				662324E72B63010D00864B3F /* CustomStyleModifier.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -301,6 +304,7 @@
 			files = (
 				667DC4462B618ACD003636E1 /* ListLeagues.swift in Sources */,
 				667DC4442B618ACD003636E1 /* appAlanApp.swift in Sources */,
+				662324E82B63010D00864B3F /* CustomStyleModifier.swift in Sources */,
 				667DC4732B619189003636E1 /* League.swift in Sources */,
 				667DC47B2B61BB18003636E1 /* TeamView.swift in Sources */,
 				667DC4752B6191B1003636E1 /* Team.swift in Sources */,
